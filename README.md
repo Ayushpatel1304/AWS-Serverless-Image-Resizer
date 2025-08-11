@@ -20,7 +20,7 @@ This project automatically resizes images on-the-fly when they are uploaded to a
 3. **Lambda Function** resizes the image to pre-defined dimensions using `sharp` (or similar library).
 4. **Resized Images** are stored in a separate destination S3 bucket or a subdirectory.
 
-![Architecture Diagram](docs/architecture-diagram.png)
+![Architecture Diagram](/architecture-diagram.png)
 
 ---
 
