@@ -53,3 +53,25 @@ Running the command above will zip your source code and dependencies. The zip ca
 | Level        | Intermediate                                                                               |
 | Use Case     | Lambda DevX, Integration Testing                                                           |
 | GitHub       | [Repository link](https://github.com/Ayushpatel1304/AWS-Serverless-Image-Resizer) |
+
+
+## ⚙️ Setup Instructions
+
+1️⃣ Clone the Repository
+
+git clone https://github.com/yourusername/serverless-image-resizer.git
+cd serverless-image-resizer
+
+2️⃣ nstall Dependencies
+npm install
+
+3️⃣ Deploy to AWS
+You can use AWS SAM or Serverless Framework to deploy:
+
+sam build
+sam deploy --guided
+
+4️⃣ Upload an Image
+Upload an image to the source S3 bucket.
+
+Check the destination bucket for resized versions
