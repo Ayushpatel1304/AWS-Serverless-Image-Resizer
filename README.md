@@ -59,7 +59,7 @@ Running the command above will zip your source code and dependencies. The zip ca
 
 1️⃣ Clone the Repository
 
-git clone https://github.com/yourusername/serverless-image-resizer.git
+git clone https://github.com/Ayushpatel1304/serverless-image-resizer.git
 cd serverless-image-resizer
 
 2️⃣ nstall Dependencies
